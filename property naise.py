@@ -77,8 +77,8 @@ while True:
         import pymssql
         server = 'tutorialtestserver.database.windows.net'
         database = 'Property Details'
-        username = 'sqladmin'
-        password = 'Test1234'
+        username = 'sqla&&&&'
+        password = '&&&1234'
         driver= '{ODBC Driver 13 for SQL Server}'
         cnxn = pymssql.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
         cursor = cnxn.cursor()
